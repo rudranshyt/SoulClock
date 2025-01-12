@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoulClock</title>
+    <link rel="icon" href="/icon.png" type="image/png">
 </head>
+
 <body>
-    
+    <div class="main">
+        <div>
+            <h1>Hello</h1>
+            <h3>Welcome to Soul Clock</h3>
+        </div>
+        <div id="inputContainer">
+            <!-- Input fields will be dynamically updated here -->
+            <input type="text" id="nameInput" placeholder="Enter your name">
+            <button id="submit" onclick="getUserInput()">Submit</button>
+        </div>
+    </div>
+    <script src="controllers/controller.js"></script>
 </body>
+
 </html>
