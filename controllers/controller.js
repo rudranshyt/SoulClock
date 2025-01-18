@@ -28,8 +28,8 @@ function getUniqueNameAndImage(soulAge) {
 
   const uniqueImage = {
     1: "../images/baby vibes.png",
-    2: "../images/sippy cup.png",
-    3: "../images/snack fiend.png",
+    2: "../images/sippycup.png",
+    3: "../images/snack friend.png",
     4: "../images/awkward adventurer.png",
     5: "../images/the teacher.png",
     6: "../images/the healer.png",
