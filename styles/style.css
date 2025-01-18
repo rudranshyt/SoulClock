@@ -33,6 +33,10 @@ h1, h3 {
     align-items: center;
 }
 
+#soulImage{
+
+}
+
 input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -60,6 +64,16 @@ button:hover {
     background-color: #ff6347;
 }
 
+#soulImage {
+  display: block;
+  max-width: 100%;  
+  max-height: 200px; 
+  width: auto;  
+  margin: 20px auto; 
+  border-radius: 8px;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
 @media (max-width: 600px) {
     .main {
         padding: 10px;
@@ -76,4 +90,9 @@ button:hover {
     h3 {
         font-size: 18px;
     }
+
+    #soulImage {
+    max-height: 150px;  
+    margin: 10px auto;
+  }
 }
