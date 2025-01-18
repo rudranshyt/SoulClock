@@ -15,6 +15,7 @@ function calculateAge(length) {
 
 function getUniqueNameAndImage(soulAge) {
   const uniqueName = {
+    0: "The Wanderer",
     1: "Baby Vibes",
     2: "Sippy Cup",
     3: "Snack Fiend",
@@ -27,6 +28,7 @@ function getUniqueNameAndImage(soulAge) {
   };
 
   const uniqueImage = {
+    0: "../images/the wanderer.png",
     1: "../images/baby vibes.png",
     2: "../images/sippycup.png",
     3: "../images/snack friend.png",
